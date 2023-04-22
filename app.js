@@ -1,11 +1,11 @@
+const valigator = require('validator')
 const getNotes = require('./notes.js')
 
 const mes = getNotes()
 
 console.log(mes);
 
-// challenge: define and use a function in a new file
+const email = "phamgmail.com";
+const url = "https://google.com";
 
-// const sum = require('./utils.js')
-
-// console.log(sum(4, 7))
+console.log(valigator.isURL(url));

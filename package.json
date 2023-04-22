@@ -1,0 +1,22 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamhongduc-dev/node-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phamhongduc-dev/node-course/issues"
+  },
+  "homepage": "https://github.com/phamhongduc-dev/node-course#readme",
+  "dependencies": {
+    "validator": "^13.9.0"
+  }
+}
