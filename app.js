@@ -1,11 +1,7 @@
-const valigator = require('validator')
-const getNotes = require('./notes.js')
+const getNotes = require("./notes.js");
+const chalk = require("chalk");
 
-const mes = getNotes()
-
+const mes = getNotes();
 console.log(mes);
 
-const email = "phamgmail.com";
-const url = "https://google.com";
-
-console.log(valigator.isURL(url));
+console.log(chalk.green("Success?"));

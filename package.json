@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/phamhongduc-dev/node-course#readme",
   "dependencies": {
-    "validator": "^13.9.0"
+    "chalk": "^2.4.2"
   }
 }
