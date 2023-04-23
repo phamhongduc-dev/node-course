@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/phamhongduc-dev/node-course#readme",
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "yargs": "^12.0.2"
   }
 }
