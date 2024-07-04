@@ -74,7 +74,7 @@ const task = new Task({
 });
 
 task
-  .save() 
+  .save()
   .then(() => {
     console.log(task);
   })
